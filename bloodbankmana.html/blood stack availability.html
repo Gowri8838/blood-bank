@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blood Stack</title>
+    <style>
+      body{
+           background-color:gray;
+      }
+      .box{
+           border: 2px solid black;
+           padding: 20px;
+           font-size: 20px;
+           border-radius: 8px;
+           color: black;
+           background-color:rgb(241, 128, 100);
+           }
+      .box input:hover{
+            width:150px;
+            height: 25px;
+            border-radius: 5px;
+      }
+      .box select{
+            width:150px;
+            height: 30px;
+            border-radius: 5px;
+            font-size: 20px;
+      }
+      .btn input{
+             background-color:lightblue;
+             border-radius: 4px;
+             margin-left: 45%;
+             text-align: center;
+             font-size: 15px;
+            padding: 10px;
+           }
+      .title{
+            text-align: center;
+            font-size: 35px;
+           }
+       body{
+            color: black;
+            font-style: oblique;
+             }
+      table tr th {
+               font-size: 20px;
+               border: 1px solid black;
+               background-color:aquamarine;
+               padding: 20px;
+               margin: 0;
+          }
+      table{
+              margin-left:30%
+            }
+      </style>
+</head>
+<body>
+   <h2>Blood Stock Availability</h2>
+      <div class="title">
+          <h3>Search Blood Stock</h3>
+      </div>
+      <br>
+      <div class="box">
+            <form action="">
+           <label for="state">STATE:</label>
+           <input type="text" id="STATE">
+           <label for="dis">DISTRICT:</label>
+           <input type="text" id="dis">
+           <label for="">BLOOD GROUPS:</label>
+           <select name="" id="">
+              <option value="">select</option>
+              <option value="" >A+</option>
+              <option value="">B+</option>
+              <option value="">0+</option>
+              <option value="">AB+</option>
+              <option value="">A-</option>
+              <option value="">B-</option>
+              <option value="">O-</option>
+              <option value="">AB-</option>
+            </select>
+             <label for="">SELECT BLOOD COMPONENT:</label>
+            <select name="" id="">
+              <option value="">select</option>
+              <option value="" >Whole Blood</option>
+              <option value="">Packed Red Cell</option>
+              <option value="">Plateletes Concentrate</option>
+              <option value="">Fresh Frozen Plasma</option>
+            </select><br>
+      </div>  
+       <br>
+       <div class="btn">
+            <input type="button" value="SEARCH">
+       </div> 
+   
+      </form>   
+       <p style="font-size: 30px;color: rgb(245, 24, 24);">Available Blood Groups</p>
+       <table> 
+          <tr>
+            <th>STATE</th> <br>
+            <th>DISTRICT</th> <br>
+            <th>BLOOD GROUP</th><br>
+            <th>BLOOD COMPONENT</th> <br>
+          </tr> 
+       
+      </table>    
+    
+</body>
+</html>

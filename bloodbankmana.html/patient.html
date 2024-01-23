@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PATIENT</title>
+    <style>
+        body{
+             background-image: url(images/dono1.webp);
+             background-size:cover;
+             background-color: aquamarine;
+             font-style: oblique;
+             color: red;
+             text-align: center;
+             font-size: 20px;
+             opacity: 1;
+        }
+        .text{
+               border: 2px solid black;
+               width:400px;
+               padding:10px;
+               margin:auto;
+               word-spacing:10px;
+               display: grid;
+               background-color:pink;
+               font-size: 20px;
+               color:black;
+               border-radius: 8%;
+            }
+         </style>
+</head>
+<body>
+   <h2><u> PATIENT DETAILS:</h2></u>
+        <div class="text">
+            <form action=""></form>
+                <h3>REGISTRATION FORM :</h3>
+                  <div class="input">
+                      <input type="text" placeholder="FULL NAME..." required>
+                      <input type="text" placeholder="LAST NAME..."><br>
+                      <br>
+                      <input type="text" placeholder="EMAIL ID..." required>
+                      <input type="Number" placeholder="PHONE NO..."><br>
+                      <br>
+                      <input type="text" placeholder="STATE...">
+                      <input type="text" placeholder="DISTRICT...">
+                  </div>
+                  <br>
+                  <div class="gender">
+                     <label for="Male">MALE</label>
+                     <input type="radio" name="gender" id="male">
+                    <label for=""> FEMALE</label>
+                    <input type="radio" name="gender" id="female">
+                 </div>   
+                 <br> 
+                 <div class="bg">
+                      <label for="bg">BLOOD GROUPS</label>
+                    <select name="" id="bg">
+                        <option value="">select</option>
+                        <option value="" >A+</option>
+                        <option value="">B+</option>
+                        <option value="">0+</option>
+                        <option value="">AB+</option>
+                        <option value="">A-</option>
+                        <option value="">B-</option>
+                        <option value="">O-</option>
+                        <option value="">AB-</option>
+                    </select>
+                 </div>
+                 <br>
+                <div class="disease">
+                    <label for="di">DISEASE</label>
+                    <select name="" id="di">
+                        <option value="">select</option>
+                        <option value="" >cancer</option>
+                        <option value="">Preganent</option>
+                        <option value="">accident</option>
+                        <option value="">platelet</option>
+                        <option value="">Others</option>
+                    </select>
+                 </div><br>
+                <div class="button">
+                     <input type="button" value="SUBMIT">
+                     <input type="button" value="RESET">
+                </div>
+            </div>   
+        </body>
+        </html>
+

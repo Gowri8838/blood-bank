@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DONOR DETAILS</title>
+    <style>
+        body{
+            background-image: url(images/donote\ 1.png);
+            background-position: right 40px;
+            background-size: 300px;
+            word-spacing:2%;
+            background-repeat: no-repeat;
+            text-align: center;
+            color: violet;
+            font-style: italic;
+            border: 3px solid black;
+            width:350px;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 50px;
+            border-radius: 8%;
+            box-shadow: 8px 7px red;
+            background-color: rgb(14, 65, 52);
+            
+        }
+        #action{
+               margin-top: 60px;
+               margin-left: auto;
+               margin-right: auto;
+               margin-top: 20px;
+               width:200px;
+               height: auto;
+              }
+    .text{
+          color:yellow;
+          width: 200px;
+          display:inline-block;
+          text-align: left;
+          }
+         
+      
+   </style>
+</head>
+<body>
+     <diV id="action">
+        <h2><u>DONOR DETAILS:</h2></u>
+        <div class="text">
+             <form action=""></form>
+             <br>
+            <label for="name"> NAME:</label>
+            <input type="text" id="name" >
+            </br>
+            <br>
+            <label for="age" required>AGE:</label>
+            <input type="text" id="age">
+            </br><br>
+            <label for="gender">MALE</label>
+            <input type="radio" id="gender" name="gender">
+            <label for="gender">FEMALE</label>
+            <input type="radio" id="gender" name="gender"><br>
+            <br>
+            <label for="bg">BLOOD GROUP:</label>
+            <select name="" id="bg">
+              <option value="">select</option>
+              <option value="" >A+</option>
+              <option value="">B+</option>
+              <option value="">0+</option>
+              <option value="">AB+</option>
+              <option value="">A-</option>
+              <option value="">B-</option>
+              <option value="">O-</option>
+              <option value="">AB-</option>
+           </select>
+           </br>
+           <br>
+            <label for="add">ADDRESS:</label>
+            <input type="text" id="add" >
+            </br>
+            <br>
+        <label for="unit">UNIT:</label>
+        <input type="number" id="unit"   >
+        </br>
+        <br>
+        <label for="reqdte">REQUEST DATE:</label>
+        <input type="text" id="reqdte" placeholder="DD/MM/YYYY">
+       </br>
+       <br>
+        <label for="mb">MOBILE NO:</label>
+        <input type="mobile no"  id="mb" placeholder="xxxx-xxxx-xx" pattern="[0-9]{10}">
+       </br>
+       <br>
+        
+        <center>
+        <button>SUBMIT</button>
+        </center>
+        </br>
+      </div>
+    </diV>
+</body>
+</html>
